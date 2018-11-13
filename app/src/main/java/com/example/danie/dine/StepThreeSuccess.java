@@ -3,7 +3,7 @@ package com.example.danie.dine;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class StepThree extends AppCompatActivity {
+public class StepThreeSuccess extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

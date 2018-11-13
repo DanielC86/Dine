@@ -6,4 +6,6 @@
     <string name="title_activity_main2">StepTwo</string>
     <string name="ChoseRestaurant">Where would you like to book a table?</string>
     <string name="NumberOfPeople">For how many people?</string>
+    <string name="DinnerDate">Please select prefered date</string>
+    <string name="CustomerDetails">Dear Guest, please give us your name and email address. You can also register new account. Have an account already? Please login!</string>
 </resources>

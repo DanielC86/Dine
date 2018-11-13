@@ -17,8 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".StepTwo" />
-        <activity android:name=".StepThree" />
-        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".StepThreeSuccess" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".StepThreeFailure"></activity>
     </application>
 
 </manifest>
