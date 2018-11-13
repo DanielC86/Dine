@@ -4,4 +4,6 @@
     <string name="btnMinus">-</string>
     <string name="defaultNumber">0</string>
     <string name="title_activity_main2">StepTwo</string>
+    <string name="ChoseRestaurant">Where would you like to book a table?</string>
+    <string name="NumberOfPeople">For how many people?</string>
 </resources>
