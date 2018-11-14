@@ -8,4 +8,8 @@
     <string name="NumberOfPeople">For how many people?</string>
     <string name="DinnerDate">Please select prefered date</string>
     <string name="CustomerDetails">Dear Guest, please give us your name and email address. You can also register new account. Have an account already? Please login!</string>
+    <string name="nextOneTwo">Next</string>
+    <string name="exit">Exit</string>
+    <string name="TwoOne">Back</string>
+    <string name="TwoThree">Next</string>
 </resources>
