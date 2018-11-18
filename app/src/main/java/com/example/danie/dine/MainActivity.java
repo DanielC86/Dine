@@ -32,7 +32,9 @@ public class MainActivity extends AppCompatActivity {
                 Intent OneTwoIntent = new Intent(getApplicationContext(),StepTwo.class);
                 //passing info to the second activity
                 startActivity(OneTwoIntent);
-                finish();
+                //adding animation
+                overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
+
 
             }
         });

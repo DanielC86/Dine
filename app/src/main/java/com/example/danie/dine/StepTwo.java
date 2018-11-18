@@ -24,6 +24,8 @@ public class StepTwo extends AppCompatActivity {
             }
         });
 
+
+
         Button btnTwoThree = (Button)findViewById(R.id.btnTwoThree);
         btnTwoThree.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -32,6 +34,7 @@ public class StepTwo extends AppCompatActivity {
                 Intent TwoThreeIntent = new Intent(getApplicationContext(),StepThreeSuccess.class);
                 //passing info to the third activity
                 startActivity(TwoThreeIntent);
+                overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);
                 finish();
             }
         });
