@@ -1,10 +1,13 @@
 package com.example.danie.dine;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+
+import com.example.danie.dine.Activities.RegisterActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -29,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent OneTwoIntent = new Intent(getApplicationContext(),PickDateActivity.class);
+                Intent OneTwoIntent = new Intent(getApplicationContext(),RegisterActivity.class);
                 //passing info to the second activity
                 startActivity(OneTwoIntent);
                 //adding animation
