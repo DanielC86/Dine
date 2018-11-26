@@ -6,12 +6,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-public class StepTwo extends AppCompatActivity {
+public class PickDateActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_step_two);
+        setContentView(R.layout.activity_pick_date);
 
         Button btnTwoOne = (Button)findViewById(R.id.btnTwoOne);
         btnTwoOne.setOnClickListener(new View.OnClickListener() {
@@ -31,7 +31,7 @@ public class StepTwo extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Intent TwoThreeIntent = new Intent(getApplicationContext(),StepThreeSuccess.class);
+                Intent TwoThreeIntent = new Intent(getApplicationContext(),SuccessActivity.class);
                 //passing info to the third activity
                 startActivity(TwoThreeIntent);
                 overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right);

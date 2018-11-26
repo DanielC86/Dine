@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent OneTwoIntent = new Intent(getApplicationContext(),StepTwo.class);
+                Intent OneTwoIntent = new Intent(getApplicationContext(),PickDateActivity.class);
                 //passing info to the second activity
                 startActivity(OneTwoIntent);
                 //adding animation

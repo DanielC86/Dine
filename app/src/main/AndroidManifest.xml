@@ -16,10 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".StepTwo" />
-        <activity android:name=".StepThreeSuccess" />
-        <activity android:name=".ProfileActivity" />
-        <activity android:name=".StepThreeFailure"></activity>
+        <activity android:name=".PickDateActivity" />
+        <activity android:name=".SuccessActivity" />
+        <activity android:name=".ProfileViewActivity" />
+        <activity android:name=".FailureActivity" />
+        <activity android:name=".Activities.RegisterActivity" />
+        <activity android:name=".Activities.LoginActivity"></activity>
     </application>
 
 </manifest>

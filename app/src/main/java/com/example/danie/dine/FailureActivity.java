@@ -3,11 +3,11 @@ package com.example.danie.dine;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class StepThreeFailure extends AppCompatActivity {
+public class FailureActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_step_three_failure);
+        setContentView(R.layout.activity_success);
     }
 }
