@@ -1,13 +1,15 @@
-package com.example.danie.dine;
+package com.example.danie.dine.Activities;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class ProfileViewActivity extends AppCompatActivity {
+import com.example.danie.dine.R;
+
+public class FailureActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_profile_view);
+        setContentView(R.layout.activity_success);
     }
 }
